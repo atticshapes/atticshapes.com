@@ -43,15 +43,40 @@
         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
         font-size: x-large;
       }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .banner {
+          background-color: black;
+          background-size: cover;
+      }
+
+      .wrapper {
+          margin: 0 auto; /* This is what centers it */
+          max-width: 1000px;
+          width: 96%;
+      }
     </style>
   </head>
 
   <body>
+    <div class="banner">
+        <div class="wrapper">
+          <img src="img/logo-small.png" alt="Attic Shapes" width="225" class="center"  />
+        </div>
+    </div>
+    <div class="banner">
+    </div>
     <div>
-      <img src="img/logo-small.png" alt="Attic Shapes" width="225" />
       <p>Attic Shapes is a band.</p>
       <p>info@atticshapes.com</p>
       <h2>Releases</h2>
+      <p>
+        <a href="at-bleeker.html">At Bleeker</a>
+      </p>
       <p>
         <a href="early-riser.html">Early Riser</a>
       </p>
