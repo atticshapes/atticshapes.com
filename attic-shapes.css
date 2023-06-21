@@ -16,6 +16,7 @@ p {
 .banner {
     background-color: black;
     background-size: cover;
+    height: 200px;
 }
 .wrapper {
     margin: 0 auto; /* This is what centers it */
