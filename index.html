@@ -14,11 +14,10 @@
     <meta name="robots" content="index,follow" /> <!-- robots.txt devrait suffir -->
     <link rel="publisher" href="Attic Shapes" />
     <link rel="author" href="Attic Shapes" />
-    <link rel="sitemap" type="application/xml" title="Sitemap"
-      href="sitemap.xml" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="~/sitemap.xml" />
     <!-- Download a resource right now (into cache) if we know it's going to be used later -->
     <!-- (can be useful for future pages) -->
-    <link rel="prefetch" href="img/logo-small.png">
+    <link rel="prefetch" href="~/img/logo-small.png">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- Enable Chrome Frame -->
     <meta http-equiv="Default-Style" content="light">
@@ -26,7 +25,7 @@
     <!-- <meta name="google-site-verification" content="{{ GOOGLE_WEBMASTER_TOOLS_KEY
       }}"> -->
     <!-- fav icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo-small.png">
+    <link rel="shortcut icon" type="image/x-icon" href="~/img/logo-small.png">
     <!-- Open Graph -->
     <!-- TODO DYNAMIC ACCORDING TO THE TYPE -->
     <meta property="og:locale" content="en-GB" />
@@ -38,35 +37,8 @@
     <meta property="og:site_name" content="Attic Shapes" />
 
     <title>Attic Shapes</title>
-    <style type="text/css">
-      html, body {
-        padding: 0px;
-        margin: 0px;
-      }
-      p {
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-        font-size: x-large;
-      }
-      .logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-        height: 200px;
-      }
-      .banner {
-          background-color: black;
-          background-size: cover;
-      }
-      .wrapper {
-          margin: 0 auto; /* This is what centers it */
-          max-width: 1000px;
-          width: 96%;
-      }
-      .content {
-        margin: 8px
-      }
-    </style>
+
+    <link rel="stylesheet" href="~/attic-shapes.css">
   </head>
 
   <body>
