@@ -1,0 +1,27 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+.banner {
+    background-color: black;
+    background-size: cover;
+}
+.wrapper {
+    margin: 0 auto; /* This is what centers it */
+    max-width: 1000px;
+    width: 96%;
+}
+.content {
+  margin: 8px
+}
