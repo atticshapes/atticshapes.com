@@ -1,9 +1,11 @@
-html, body {
+html,
+body {
   padding: 0px;
   margin: 0px;
   font-size: larger;
 }
-p,a {
+p,
+a {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: x-large;
 }
@@ -17,15 +19,15 @@ p,a {
   height: 200px;
 }
 .banner {
-    background-color: black;
-    background-size: cover;
-    height: 200px;
+  background-color: black;
+  background-size: cover;
+  height: 200px;
 }
 .wrapper {
-    margin: 0 auto; /* This is what centers it */
-    max-width: 1000px;
-    width: 96%;
+  margin: 0 auto; /* This is what centers it */
+  max-width: 1000px;
+  width: 96%;
 }
 .content {
-  margin: 8px
+  margin: 8px;
 }

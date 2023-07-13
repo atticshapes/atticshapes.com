@@ -3,36 +3,43 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="Cache-control" max-age="31536000">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" max-age="31536000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Language" content="en" />
     <meta name="language" content="en" />
-    <meta name="application-name" content="Attic Shapes">
-    <meta name="description" content="Attic Shapes is a band">
+    <meta name="application-name" content="Attic Shapes" />
+    <meta name="description" content="Attic Shapes is a band" />
     <meta name="keywords" content="attic shapes, band, music, art, safe moon" />
-    <meta name="robots" content="index,follow" /> <!-- robots.txt devrait suffir -->
+    <meta name="robots" content="index,follow" />
+    <!-- robots.txt devrait suffir -->
     <link rel="publisher" href="Attic Shapes" />
     <link rel="author" href="Attic Shapes" />
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="sitemap.xml"
+    />
     <!-- Download a resource right now (into cache) if we know it's going to be used later -->
     <!-- (can be useful for future pages) -->
-    <link rel="prefetch" href="img/logo-small.png">
-    <link rel="dns-prefetch" href="https://s4.bcbits.com" >
-    <link rel="dns-prefetch" href="https://www.google-analytics.com" >
+    <link rel="prefetch" href="img/logo-small.png" />
+    <link rel="dns-prefetch" href="https://s4.bcbits.com" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- Enable Chrome Frame -->
-    <meta http-equiv="Default-Style" content="light">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Enable Chrome Frame -->
+    <meta http-equiv="Default-Style" content="light" />
 
     <!-- <meta name="google-site-verification" content="{{ GOOGLE_WEBMASTER_TOOLS_KEY }}"> -->
     <!-- fav icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo-small.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo-small.png" />
 
     <!-- Open Graph -->
     <!-- TODO DYNAMIC ACCORDING TO THE TYPE -->
     <meta property="og:locale" content="en-GB" />
-    <meta property="og:type" content="article" /> <!-- product... -->
+    <meta property="og:type" content="article" />
+    <!-- product... -->
     <meta property="og:title" content="Attic Shapes" />
     <meta property="og:description" content="Attic Shapes is a band" />
     <meta property="og:image" content="img/logo-small.png" />
@@ -41,153 +48,161 @@
 
     <title>Attic Shapes|Safe Moon</title>
 
-    <link rel="stylesheet" href="attic-shapes.css">
+    <link rel="stylesheet" href="attic-shapes.css" />
     <style type="text/css">
-    a:link {
+      a:link {
         color: antiquewhite;
-    }
-    a:visited {
+      }
+      a:visited {
         color: bisque;
-    }
-    a:hover {
+      }
+      a:hover {
         color: cyan;
-    }
-    a:active {
+      }
+      a:active {
         color: blue;
-    }
-    body {
+      }
+      body {
         background-color: #6d2647;
-        color: white
-    }
+        color: white;
+      }
     </style>
   </head>
   <body>
     <div class="content">
       <p>
-      <a href="index.html">
-          << homepage
-        </a>
-    </p>
+        <a href="index.html"> << homepage </a>
+      </p>
 
-    <h1><b>Safe Moon</b></h1>
-    <p>
+      <h1><b>Safe Moon</b></h1>
+      <p></p>
       <p>
-          <iframe
-              title="Attic Shapes - Safe Moon"
-              style="border: 0; width: 200px; height: 200px;"
-              loading="lazy"
-              allowtransparency="true"
-              src="https://bandcamp.com/EmbeddedPlayer/album=3673957425/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/track=4139082200/transparent=true/"
-              seamless
-          >
+        <iframe
+          title="Attic Shapes - Safe Moon"
+          style="border: 0; width: 200px; height: 200px"
+          loading="lazy"
+          allowtransparency="true"
+          src="https://bandcamp.com/EmbeddedPlayer/album=3673957425/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/track=4139082200/transparent=true/"
+          seamless
+        >
           <!-- https://stackoverflow.com/a/62177358 -->
           <script type="application/javascript">
-              jQuery.event.special.touchstart = {
-                  setup: function( _, ns, handle ) {
-                      this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
-                  }
-              };
-              jQuery.event.special.touchmove = {
-                  setup: function( _, ns, handle ) {
-                      this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
-                  }
-              };
-              jQuery.event.special.wheel = {
-                  setup: function( _, ns, handle ){
-                      this.addEventListener("wheel", handle, { passive: true });
-                  }
-              };
-              jQuery.event.special.mousewheel = {
-                  setup: function( _, ns, handle ){
-                      this.addEventListener("mousewheel", handle, { passive: true });
-                  }
-              };
+            jQuery.event.special.touchstart = {
+              setup: function (_, ns, handle) {
+                this.addEventListener("touchstart", handle, {
+                  passive: !ns.includes("noPreventDefault"),
+                });
+              },
+            };
+            jQuery.event.special.touchmove = {
+              setup: function (_, ns, handle) {
+                this.addEventListener("touchmove", handle, {
+                  passive: !ns.includes("noPreventDefault"),
+                });
+              },
+            };
+            jQuery.event.special.wheel = {
+              setup: function (_, ns, handle) {
+                this.addEventListener("wheel", handle, { passive: true });
+              },
+            };
+            jQuery.event.special.mousewheel = {
+              setup: function (_, ns, handle) {
+                this.addEventListener("mousewheel", handle, { passive: true });
+              },
+            };
           </script>
-            <a href="https://atticshapes.bandcamp.com/album/safe-moon">Safe
-              Moon by Attic Shapes</a>
-          </iframe>
-        </p>
-  <p>
-      Listen to Safe Moon
-      <a href="https://atticshapes.bandcamp.com/album/safe-moon">
-          on bandcamp</a>.
-  </p>
-
-  <ul>
-      <li>Studio: Castlesound Studios
-          (<a href=https://castlesound.co.uk>castlesound.co.uk</a>)
-      </li>
-      <li>
-          Recorded and Mixed: Stuart Hamilton
-      </li>
-      <li>
-          Ampeg bass amplifier: DM Audio
-          (<a href=https://dmaudio.co.uk>dmaudio.co.uk</a>)</li>
-      </li>
-      <li>
-          Mastering: Sean Magee at Abbey Road
-          (<a href=https://abbeyroad.com>abbeyroad.com</a>)</li>
-      </li>
-      <li>
-          AR, TD, and MC. DH in spirit.
-      </li>
-  </ul>
-
-  <p>
-      Every day, in my head<br />
-      I'm on the <b>Safe Moon</b><br />
-      <b>Safe Moon</b> in the sky<br />
-      I was low, but now I'm high<br />
-      Under a number bloom<br />
-      My oh my oh my<br />
-      Every hour, I spend in flower<br />
-      Here on the <b>Safe Moon</b><br />
-      Luminous and clear<br />
-      Every motion, fluctuation<br />
-      Of the <b>Safe Moon</b><br />
-      Watch me disappear<br />
-  <br />
-      Dreams come to me when I'm sleeping<br />
-      They move me, in the midnight, in the dark<br />
-      But I could smell the disipations of Ethereum<br />
-      Like I can feel the sweet caress of the Iridium<br />
-  <br />
-      Yesterday I, put it all<br />
-      Onto <b>Safe Moon</b><br />
-      <b>Safe Moon</b> in the sky<br />
-      It's gonna lift<br />
-      It might fly<br />
-      I could be gone soon<br />
-      Catch me by and by<br />
-      In the east, in the morning, in the free domain<br />
-      Surfing in the sand<br />
-      Out of orbit, out of the cold<br />
-      Extra-terrestrial<br />
-      Up, by fifty grand<br />
-  <br />
-      Dreams come to me wenn ich schlafen<br />
-      Cobalt from the congo<br />
-      Shrouding me in red<br />
-      I've been driving, I've been drinking up Delerium<br />
-      Me and the shadow in the shower<br />
-      Scrubbing uranium<br />
-  <br />
-      Every day, every moment<br />
-      Here on the <b>Safe Moon</b><br />
-      <b>Safe Moon</b> all the way<br />
-      And tomorrow, and tomorrow<br />
-      Here on the <b>Safe Moon</b><br />
-  <br />
-      Thrusters engaged
-  </p>
-    
+          <a href="https://atticshapes.bandcamp.com/album/safe-moon"
+            >Safe Moon by Attic Shapes</a
+          >
+        </iframe>
+      </p>
       <p>
-      <a href="index.html">
-          << homepage
-          </a>
+        Listen to Safe Moon
+        <a href="https://atticshapes.bandcamp.com/album/safe-moon">
+          on bandcamp</a
+        >.
+      </p>
+
+      <ul>
+        <li>
+          Studio: Castlesound Studios (<a href="https://castlesound.co.uk"
+            >castlesound.co.uk</a
+          >)
+        </li>
+        <li>Recorded and Mixed: Stuart Hamilton</li>
+        <li>
+          Ampeg bass amplifier: DM Audio (<a href="https://dmaudio.co.uk"
+            >dmaudio.co.uk</a
+          >)
+        </li>
+        <li>
+          Mastering: Sean Magee at Abbey Road (<a href="https://abbeyroad.com"
+            >abbeyroad.com</a
+          >)
+        </li>
+        <li>AR, TD, and MC. DH in spirit.</li>
+      </ul>
+
+      <p>
+        Every day, in my head<br />
+        I'm on the <b>Safe Moon</b><br />
+        <b>Safe Moon</b> in the sky<br />
+        I was low, but now I'm high<br />
+        Under a number bloom<br />
+        My oh my oh my<br />
+        Every hour, I spend in flower<br />
+        Here on the <b>Safe Moon</b><br />
+        Luminous and clear<br />
+        Every motion, fluctuation<br />
+        Of the <b>Safe Moon</b><br />
+        Watch me disappear<br />
+        <br />
+        Dreams come to me when I'm sleeping<br />
+        They move me, in the midnight, in the dark<br />
+        But I could smell the disipations of Ethereum<br />
+        Like I can feel the sweet caress of the Iridium<br />
+        <br />
+        Yesterday I, put it all<br />
+        Onto <b>Safe Moon</b><br />
+        <b>Safe Moon</b> in the sky<br />
+        It's gonna lift<br />
+        It might fly<br />
+        I could be gone soon<br />
+        Catch me by and by<br />
+        In the east, in the morning, in the free domain<br />
+        Surfing in the sand<br />
+        Out of orbit, out of the cold<br />
+        Extra-terrestrial<br />
+        Up, by fifty grand<br />
+        <br />
+        Dreams come to me wenn ich schlafen<br />
+        Cobalt from the congo<br />
+        Shrouding me in red<br />
+        I've been driving, I've been drinking up Delerium<br />
+        Me and the shadow in the shower<br />
+        Scrubbing uranium<br />
+        <br />
+        Every day, every moment<br />
+        Here on the <b>Safe Moon</b><br />
+        <b>Safe Moon</b> all the way<br />
+        And tomorrow, and tomorrow<br />
+        Here on the <b>Safe Moon</b><br />
+        <br />
+        Thrusters engaged
+      </p>
+
+      <p>
+        <a href="index.html"> << homepage </a>
       </p>
       <footer>
-          <small class="center">© <script>document.write(new Date().getFullYear())</script> Attic Shapes. All Rights Reserved.</small>
+        <small class="center"
+          >©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Attic Shapes. All Rights Reserved.</small
+        >
       </footer>
     </div>
   </body>
